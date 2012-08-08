@@ -1,0 +1,83 @@
+/* Normal, standard links. */
+a:link
+{
+	color: #323232;
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #323232;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: #323232;
+	text-decoration: none;
+}
+
+/* Tables should show empty cells. */
+table
+{
+	empty-cells: show;
+	border: solid 1px #909090;
+}
+
+/* By default (td, body..) use Tahoma in black. */
+body
+{
+	color: #000000;
+	font-size: small;
+	font-family: Verdana, helvetica, serif;
+}
+
+td
+{
+	color: #000000;
+	font-size: small;
+	font-family: Verdana, helvetica, serif;
+	border: solid 1px #C0C0CA;
+}
+
+/* The main body of the entire forum. */
+body
+{
+	background-color: #DADAD4;
+	/* margin: 0px;
+	padding: 0px;
+	margin-left: 15px;
+	margin-top: 15px; */
+}
+
+/* Input boxes - just a bit smaller than normal so they align well. */
+input, textarea, button
+{
+	font-size: 9pt;
+	color: #000000;
+	font-family: Verdana, helvetica, serif;
+}
+
+/* Selects are a bit smaller, because it makes them look even better 8). */
+select
+{
+	font-size: 8pt;
+	font-weight: normal;
+	color: #000000;
+	font-family: Verdana, helvetica, serif;
+}
+
+/* Standard horizontal rule.. ([hr], etc.) */
+hr
+{
+	height: 1px;
+	border: 1;
+	color: #666666;
+	background-color: #666666;
+}
+
+.error
+{
+	color: red;
+}
+
+

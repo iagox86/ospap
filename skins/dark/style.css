@@ -1,0 +1,76 @@
+/* Normal, standard links. */
+a:link, a:visited
+{
+	color: #c0c0c0;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #0000FF;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* Tables should show empty cells too. */
+table
+{
+	empty-cells: show;
+	border: 1px solid #0000FF;
+}
+
+/* By default (td, body..) use Verdana in black. */
+body
+{
+	color: #ffffff;
+	font-size: small;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #000000;
+}
+
+td
+{
+	color: #ffffff;
+	font-size: small;
+	font-family: verdana, arial, helvetica, sans-serif;
+	border: 1px solid #000080;
+	background-color: #101010;
+}
+
+/* Input boxes - just a bit smaller than normal so they align well. */
+input, textarea
+{
+	font-size: 9pt;
+	color: #000000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+/* Checkboxes shouldn't have a background color. */
+input.check
+{
+	background-color: transparent;
+}
+
+/* Selects are a bit smaller, because it makes them look even better 8). */
+select
+{
+	font-size: 8pt;
+	font-weight: normal;
+	color: #000000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+/* Standard horizontal rule.. */
+hr
+{
+	color: #0000FF;
+	background-color: transparent;
+}
+
+.error
+{
+	color: #C00000;
+}
+
